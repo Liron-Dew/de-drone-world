@@ -1,0 +1,94 @@
+╔══════════════════════════════════════════════════════════════╗
+║              DE DRONE WORLD - Project Overview              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📌 PROJECT: De Drone World — Cinematic Aerial Intelligence
+   Revamp & Redesign of https://thedroneworld.in/
+
+🎯 MISSION:
+   We are revamping the original De Drone World website with a
+   modern, cinematic UI featuring dark theme, neon cyan (#00d4ff)
+   accents, Orbitron headings, and smooth scroll animations.
+
+🏢 ABOUT THE COMPANY:
+   - DGCA-approved RPTO (Remote Pilot Training Organisation)
+   - Based in Coimbatore, Tamil Nadu, India
+   - Founded by aviation experts from the Indian Armed Forces
+   - Registered as "De Drone World Solutions Pvt Ltd"
+   - Provides drone pilot training, aerial services, and manufacturing
+
+📄 KEY SECTIONS ON HOME PAGE (in order):
+   1. Hero Banner — video bg (dron_shot.mp4) + headline + CTA
+   2. DGCA Badge Strip — authority badges
+   3. Stories in Motion — gallery of work (6 images)
+   4. Who We Are — about + drone_logo_video.mp4
+   5. Soar Beyond Limits — 6 service cards with images
+   6. Training Centers — 2 college campuses
+   7. Built for Excellence — Why Choose Us + stats + RPTO card
+   8. Flight Assurance — certificate carousel (Swiper)
+   9. Our Infrastructure — feature list + drone_assumble.mp4
+   10. Testimonials — student reviews (carousel)
+   11. Create Real Impact — 5 application cards
+   12. Trusted Partners — 5 client logos
+   13. CTA Banner — enroll call-to-action
+   14. Contact — info + form
+   15. Footer
+
+🔗 ORIGINAL SITE PAGES (all available routes):
+   /                          Home page
+   /training                  Training overview
+   /training/small-rpc        7-day Small RPC course
+   /training/medium-rpc       Medium RPC course
+   /training/small-and-medium-rpc  10-day course
+   /training/inspector-development-course
+   /training/aerial-mapping-and-surveying
+   /training/fpv-flying
+   /training/agri-drone-spray-and-precision-agriculture
+   /training/aerial-videography-and-photography
+   /training/drone-basics
+   /training/gis-for-drone-data-processing
+   /training/drone-repair-and-maintenance
+   /training/python-for-gis
+   /training/lidar-and-gis
+   /training/build-your-own-drone
+   /training/build-your-racing-drone
+   /training/build-your-own-agri-drone
+   /training/drone-customization
+   /training/drone-technician-6-months
+   /training/7-days
+   /training/15-days
+   /training/30-days
+   /services                 Services overview
+   /services/agriculture     Agriculture drone services
+   /services/events          Event cinematography
+   /services/inspection      Industrial inspection
+   /services/survey-mapping  Survey & mapping
+   /manufacturing            Drone manufacturing
+   /contact                  Contact page
+
+🎨 DESIGN SYSTEM:
+   - Background: #0a0a0a (near black)
+   - Accent: #00d4ff (neon cyan) with glow effects
+   - Surface: #111111, #1a1a1a
+   - Fonts: Orbitron (headings), Inter (body)
+   - Buttons: neon-btn (solid cyan), neon-btn-ghost (outlined)
+   - Animations: fade-up on scroll (ai-in/ai-visible), particles, glow
+   - Section style: clip-path angled edges, grid texture overlay
+
+📂 ASSETS (public/assets/):
+   - logo.png, dgca-badge.jpeg, drone_precision.png
+   - services_hero.png, hicet-top-view.jpeg
+   - Videos: dron_shot.mp4, drone_logo_video.mp4, drone_assumble.mp4
+   - gallery/ (7 images), services/ (6 images), training/ (2 images)
+   - certs/ (4 certificates), clients/ (11 partner logos)
+
+🛠 TECH STACK:
+   React 18 + TypeScript + Vite + Tailwind CSS
+   react-router-dom (createBrowserRouter)
+   Swiper for carousels
+   lucide-react for icons
+
+📝 BUILD NOTES:
+   - npm run dev     → start dev server
+   - npm run build   → production build
+   - npm run typecheck → TypeScript check

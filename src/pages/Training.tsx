@@ -39,7 +39,7 @@ const CENTERS = [
 
 const CATEGORY_ICONS: Record<string, React.ElementType> = {
   'DGCA Courses': GraduationCap,
-  'Skill Courses': BookOpen,
+  'Skill Program': BookOpen,
   'Drone Workshops': Award,
   'Diploma Courses': GraduationCap,
   'Internships': Clock,
@@ -47,7 +47,7 @@ const CATEGORY_ICONS: Record<string, React.ElementType> = {
 
 const CATEGORY_IMAGES: Record<string, string> = {
   'DGCA Courses': '/assets/services/diplomo-course.jpeg',
-  'Skill Courses': '/assets/services/construction-service.jpeg',
+  'Skill Program': '/assets/services/construction-service.jpeg',
   'Drone Workshops': '/assets/services/workshop-build-your-own-drone.jpeg',
   'Diploma Courses': '/assets/services/diplomo-course.jpeg',
   'Internships': '/assets/training/small-training.jpeg',

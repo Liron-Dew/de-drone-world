@@ -113,7 +113,7 @@ export default function TrainingCoursePage({ title }: { title: string }) {
     .slice(0, 3);
 
   const catImage = course.category === 'DGCA Courses' ? '/assets/services/diplomo-course.jpeg'
-    : course.category === 'Skill Courses' ? '/assets/services/construction-service.jpeg'
+    : course.category === 'Skill Program' ? '/assets/services/construction-service.jpeg'
     : course.category === 'Drone Workshops' ? '/assets/services/workshop-build-your-own-drone.jpeg'
     : '/assets/training/small-training.jpeg';
 
@@ -521,7 +521,7 @@ export default function TrainingCoursePage({ title }: { title: string }) {
             <span className="section-label block mb-4">Take the Next Step</span>
             <h2 className="font-orbitron text-white font-black mb-4" style={{ fontSize: 'clamp(22px, 4vw, 42px)' }}>
               Ready to Start Your<br />
-              <span className="text-glow" style={{ color: '#00d4ff' }}>{course.title.split('(')[0].trim()}</span> Journey?
+              <span className="text-glow" style={{ color: '#00d4ff' }}>{course.title}</span> Journey?
             </h2>
             <p className="font-inter text-gray-400 text-sm max-w-2xl mx-auto mb-8 leading-relaxed">
               Limited batch sizes ensure personalized attention. Expert instructors with real-world experience.

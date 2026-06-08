@@ -24,7 +24,7 @@ const SUB_SERVICES = [
     benefits: ['Early disease detection (7-10 days earlier)', 'NDVI & multispectral analysis', 'Irrigation optimization insights', 'Weekly health reports'],
   },
   {
-    icon: Target, title: 'Precision Agriculture',
+    icon: Target, title: 'Precision Agriculture Using Drones',
     desc: 'Comprehensive precision farming solutions combining soil analysis, variable rate technology, and drone data analytics to maximize your yield while minimizing input costs.',
     benefits: ['Yield increase of 15-25%', 'Data-driven decision making', 'Variable rate application', 'Comprehensive field analytics'],
   },

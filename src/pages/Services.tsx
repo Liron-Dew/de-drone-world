@@ -14,7 +14,7 @@ const SERVICES = [
     tagline: 'Precision Farming from Above',
     desc: 'Transform your farming operations with drone-powered precision agriculture. From NDVI crop monitoring to targeted fertilizer spraying, our drones give you actionable insights that boost yields and reduce costs.',
     img: '/assets/services/fertilizer-spraying.jpeg',
-    subs: ['Fertilizer Spraying', 'Seed Sowing', 'Crop Monitoring', 'Precision Agriculture'],
+    subs: ['Fertilizer Spraying', 'Seed Sowing', 'Crop Monitoring', 'Precision Agriculture Using Drones'],
     color: '#00d4ff',
   },
   {

@@ -7,14 +7,14 @@ const TRAINING_MENU = [
   {
     category: 'DGCA Courses',
     items: [
-      { label: 'Small RPC', path: '/training/small-rpc' },
-      { label: 'Medium RPC', path: '/training/medium-rpc' },
-      { label: 'Small And Medium RPC', path: '/training/small-and-medium-rpc' },
+      { label: 'Small RPC (5 Days)', path: '/training/small-rpc' },
+      { label: 'Medium RPC (7 Days)', path: '/training/medium-rpc' },
+      { label: 'Small + Medium RPC (10 Days)', path: '/training/small-and-medium-rpc' },
       { label: 'Inspector Development Course', path: '/training/inspector-development-course' },
     ],
   },
   {
-    category: 'Skill Courses',
+    category: 'Skill Program',
     items: [
       { label: 'Aerial Mapping and Surveying', path: '/training/aerial-mapping-and-surveying' },
       { label: 'FPV Flying', path: '/training/fpv-flying' },
@@ -39,15 +39,15 @@ const TRAINING_MENU = [
   {
     category: 'Diploma Courses',
     items: [
-      { label: 'Drone Technician (6 Months)', path: '/training/drone-technician-6-months' },
+      { label: 'Advanced Diploma (6 Months)', path: '/training/drone-technician-6-months' },
     ],
   },
   {
     category: 'Internships',
     items: [
-      { label: '7 Days', path: '/training/7-days' },
-      { label: '15 Days', path: '/training/15-days' },
-      { label: '30 Days', path: '/training/30-days' },
+      { label: '7 Days Internship', path: '/training/7-days' },
+      { label: '15 Days Internship', path: '/training/15-days' },
+      { label: '30 Days Internship', path: '/training/30-days' },
     ],
   },
 ];
@@ -282,10 +282,10 @@ export default function MainLayout() {
             <div>
               <h4 className="font-orbitron text-white text-xs font-semibold tracking-widest uppercase mb-5">Contact Info</h4>
               <ul className="space-y-3 text-gray-400 text-sm font-inter">
-                <li>Coimbatore, Tamil Nadu, India</li>
-                <li>+91 74488 00997</li>
+                <li>Hindusthan Engineering College Campus, Malumichampatti, Coimbatore – 641028</li>
+                <li>+91 6382405660 / +91 7708757581</li>
                 <li>md@thedroneworld.in</li>
-                <li>Mon–Sat: 10AM – 5PM</li>
+                <li>Mon–Sat: 9AM – 6PM</li>
               </ul>
             </div>
           </div>
